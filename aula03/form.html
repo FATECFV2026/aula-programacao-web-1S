@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <!-- Foi colocado em div para cada input para criar o efeito de pular linha ou deixar o form empilhado, MAS não é uma prática recomendada. É definido poucas DIVs dentro do <form>  -->
+
+
+    <a href="index.html">Voltar ao Inicio</a>
+    <form action="#" method="POST">
+        <div>
+            <label>Nome Completo</label>
+            <input type="text" name="nome">
+
+        </div>
+        <div> <label>Data Nascimento</label>
+            <input type="date" name="data_nascimento">
+        </div>
+
+        <div>
+            <label>Sexo</label>
+            <input type="radio" name="sexo" value="Masculino">Masculino
+            <input type="radio" name="sexo" value="Feminino">Feminino
+        </div>
+
+        <div><label>Escolaridade</label>
+            <select name="escolaridade">
+                <option value="fundamental">Ensino Fundamental</option>
+                <option value="medio">Ensino Médio</option>
+                <option value="superior">Ensino Superior</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input type="email" name="email">
+        </div>
+
+        <div>
+            <label>Comentários</label>
+            <textarea rows="5"></textarea>
+        </div>
+
+        <div>
+            Aceita os Termos <input type="checkbox" name="termos">
+        </div>
+
+
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+
+</html>

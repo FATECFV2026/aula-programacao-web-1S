@@ -1,0 +1,17 @@
+
+:root{
+    --cor-texto:blue;
+}
+
+h2{
+    font-size: 50px;
+    color:var(--cor-texto);
+}
+
+h1{
+    color:var(--cor-texto);
+}
+
+p{
+    color: var(--cor-texto);
+}
