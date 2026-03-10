@@ -1,0 +1,25 @@
+div{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+#caixa_rgb{
+    background-color: rgb(9, 231, 160);
+}
+
+#caixa_rgba{
+    background-color: rgba(1, 124, 247, 0.1);
+}
+
+#caixa_hsl{
+    background-color: hsl(359, 92%, 19%);
+}
+
+#caixa_hsla{
+    background-color: hsla(359, 92%, 19%, 0.807);
+}
+
+#caixa_hex{
+    background-color: #2b31a1;
+}

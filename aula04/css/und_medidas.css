@@ -1,0 +1,71 @@
+/* #nome_id */
+/* * -> ALL ( é aplicado em tudo) */
+*{
+    font-size: 16px;
+}
+
+#caixa_px{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+
+#caixa_cm{
+    width: 14cm;
+    height: 7cm;
+    background-color: lightcoral;
+    margin-bottom: 1cm;
+}
+
+#caixa_mm{
+    width: 150mm;
+    height: 100mm;
+    background-color: bisque;
+    margin-bottom: 20mm;
+}
+
+#caixa_in{
+    width: 5in;
+    height: 2in;
+    background-color: brown;
+  
+}
+
+
+#container_porc{
+    width: 400px;
+    background-color: lightcoral;
+    height: 75px;
+}
+
+#container_em{
+    width: 400px;
+    height: 75px;
+    margin-top: 5px;
+    background-color: aquamarine;
+    font-size: 20px;
+}
+
+#caixa_em{
+    font-size:2em;
+    width: 50%;
+}
+
+#caixa_rem{
+    font-size:2rem;
+    width: 50%;
+}
+
+#caixa_porc{
+    width: 50%;
+    background-color: white;
+    padding-top: 10px;
+}
+
+
+#caixa_vp{
+    width: 50vw;
+    height: 50vh;
+    background-color: brown;
+}
