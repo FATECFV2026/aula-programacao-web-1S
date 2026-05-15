@@ -14,14 +14,11 @@ public class Aluno {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     
-    
-   
+    @NotBlank
     private String nome;
     
-
+    @NotBlank
     private String cpf;
-
-    
 
     public Aluno( String nome,  String cpf) {
         this.nome = nome;
@@ -51,6 +48,4 @@ public class Aluno {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-
-    
 }
