@@ -27,7 +27,8 @@ public class AlunoService {
     }
 
     public boolean excluir(Long id){
-        if(repository.existsById(id)){
+        boolean res = repository.existsById(id);
+        if(res){
             repository.deleteById(id);
             return true;
         }else{

@@ -20,6 +20,9 @@ public class Aluno {
     @NotBlank
     private String cpf;
 
+    public Aluno (){
+        
+    }
     public Aluno( String nome,  String cpf) {
         this.nome = nome;
         this.cpf = cpf;
