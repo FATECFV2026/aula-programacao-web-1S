@@ -1,0 +1,16 @@
+<h2>{{ titulo }}</h2>
+
+<form (ngSubmit)="cadastrar()">
+  <label>Nome: </label>
+  <input type="text" [(ngModel)]="nome" name="nome" required >
+
+  <label>Cpf:</label>
+  <input type="text" [(ngModel)]="cpf" name="cpf" required>
+
+  <button type="submit">Enviar</button>
+</form>
+
+<p>Nome: {{nome}}</p>
+<p>CPF: {{cpf}}</p>
+
+

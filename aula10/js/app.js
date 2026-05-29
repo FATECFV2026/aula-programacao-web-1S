@@ -64,8 +64,8 @@ async function cadastrarAluno(event) {
     formCadastro.reset();
 
   } catch (erro) {
-    setStatus("Falha ao cadastrar aluno.", "error");
-    setSaida({ erro: erro.message, enviado: payload });
+    // setStatus("Falha ao cadastrar aluno.", "error");
+    // setSaida({ erro: erro.message, enviado: payload });
   }
 }
  
